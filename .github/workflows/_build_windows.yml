@@ -5,6 +5,7 @@
 name: "[Windows x86_64] Build wheels and upload to GitHub Releases"
 
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       flash-attn-version:
