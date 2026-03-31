@@ -305,7 +305,7 @@ def main():
                 # "linux_arm64_no_container": False,
                 "linux_arm64_no_container": LINUX_ARM64_NO_CONTAINER_MATRIX,
                 #
-                "windows": False,
+                "windows": True,
                 # "windows": WINDOWS_MATRIX,
                 #
                 "windows_self_hosted": False,
